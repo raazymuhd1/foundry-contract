@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.23;
 
-// 332c845ecc77da391cd03c616456b1aeeb9c5edbd566cf19606ccf70ff6c45f1
-// https://eth-goerli.g.alchemy.com/v2/65IcgRghSg7Rdtmv14pCcFjC-Emu_0HB
-
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import {Vesting} from "./Vesting.sol";
 import {Math} from "./libs/Math.sol";

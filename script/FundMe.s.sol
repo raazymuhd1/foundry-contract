@@ -10,7 +10,7 @@ contract DeployFund is Script {
         // anything bfore broadcast is not gonna cost a gas, only after broadcast will cost a gas
         HelperConfig helper = new HelperConfig();
         address priceFeed = helper.activeNetwork();
-
+        // uint256 deployerKey = vm.envUnit("PRIVATE_KEY");
         vm.startBroadcast();
         FundMe fundMe = new FundMe(priceFeed);
         vm.stopBroadcast();

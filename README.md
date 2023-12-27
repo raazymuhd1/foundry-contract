@@ -97,3 +97,7 @@
 // private
 // internal & private view & pure functions
 // external & public view & pure functions
+
+## CAUTIONS
+ - setting ```ffi = true``` on foundry.toml are allowing foundry run a command directly on our machine
+ - ```ffi = true``` means we can access any types of script through foundry

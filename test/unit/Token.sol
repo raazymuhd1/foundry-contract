@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import {TokenA} from "../src/TokenA.sol";
+import {TokenA} from "../../src/TokenA.sol";
 
 contract TokenTest is Test {
     uint256 initialSupply = 1000_000 * 1e8;
